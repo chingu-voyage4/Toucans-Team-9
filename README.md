@@ -14,7 +14,7 @@ Voyage-4
 `git checkout Dev`
 
  if you want to create other new branches 
- 
+
 `git checkout -b <nameofbranch>`
 
 **Only use Dev or other for make changes don't use the Master branch for now, and never, Ever, Ever a pull request can be reviewed by who created**
@@ -28,8 +28,9 @@ The team has been formed to work on a project as a part of Chingu Voyage-4. Our 
 **Members:**
 
 @Ana Veiga: Project Manager
+
 @Loubna:  Team Member
-@Hussein:  Team Member
+
 @Jinxlaw:  Team Member
 
 **Desired end results:**
