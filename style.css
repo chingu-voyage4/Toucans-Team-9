@@ -1,4 +1,32 @@
 /*styling*/
 .foto-product {
-    background-image: url("https://i.imgur.com/NUGdWOR.jpg"); 
+    background-image: url("https://i.imgur.com/NUGdWOR.jpg");
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.foto2 {
+	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551641.jpg");
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.foto3 {
+	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551641.jpg");
+    height: 700px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.button {
+
 }
