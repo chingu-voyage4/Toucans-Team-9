@@ -1,7 +1,7 @@
 /*styling*/
-.foto-product {
+.section1 {
     background-image: url("https://i.imgur.com/NUGdWOR.jpg");
-    height: 700px;
+    height: 730px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,24 +9,38 @@
     background-attachment: fixed; 
 }
 
-.foto2 {
+.grid-container {}
+
+.section3 {
 	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551641.jpg");
-    height: 700px;
+    height: 900px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.foto3 {
-	background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-551641.jpg");
-    height: 700px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
+.small-image {
+    width: 605px;
+    height: 293px;
 }
 
 .button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 3px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 27.2px;
+    padding: 4px 16px 4px 16px;
+    font-weight: 700;
+    transition-duration: 0.4s;
+}
 
+.button:hover {
+    background-color: black;
+    color: white;
 }
