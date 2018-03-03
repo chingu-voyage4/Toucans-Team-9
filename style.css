@@ -1,1 +1,138 @@
-/*styling*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+body {
+    width: 100%;    
+}
+
+/*Main setion, made by cveiga*/
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* start here the design */
+.slideshow {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.884);
+    text-align:center;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
+    box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
+}
+
+.slide_img {
+    justify-content: center;
+    padding: 10px;
+}
+/*label one section*/
+.label_one {
+    height: 430px;
+    background-image: url("assets/foto_products.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.labelone_box {
+    background-color: #fff;
+    width: 50%;
+    height: 400px;
+    float: right;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.label_title {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.label_desc {
+    color: #0cc;
+    padding: 10px;
+}
+
+.label_parag {
+    text-align: justify;
+    padding: 10px;   
+}
+
+.label_btn {
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 25px;
+    border: 1px solid #000;
+    transition: all 0.3s;
+}
+
+.label_btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+/* label two section */
+.label_two {
+    background-image: url("assets/tunnel-greyscale.jpg"); 
+    height: 430px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.labetwo_img {
+    width: 200px;
+    height: auto;
+
+}
+.device_photo {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.list_device{
+    margin-top: 20px;
+}
+
+.txt_labeltwo {
+    font-size: 24px;
+    color: #fff;
+    padding-left: 10px;
+    line-height: 2;
+}
+
+.round {
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+@media screen and (max-width: 400px) {
+    .labelone_box{
+        min-width: 100%;
+        
+    }
+    .label_title, .label_desc, .label_parag, .label_btn {
+        font-size: 14px;
+    }
+}
