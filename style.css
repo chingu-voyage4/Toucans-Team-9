@@ -37,7 +37,7 @@ html, body {
   padding-top: 10px;
 }
 
-div .contact_us {
+section .contact_us {
     background-image: url(assets/foto_background.jpeg);
     position: absolute;
     height: 100%;
@@ -56,7 +56,7 @@ div .contact_us {
     text-transform: uppercase;
 
     }
-div .text {
+section .text {
     width: 60%;
     display: grid;
     align-content: center;
