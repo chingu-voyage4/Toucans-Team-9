@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 10px;
+}
+
+div .contact_us {
+    background-image: url(assets/foto_background.jpeg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.25em;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    }
+div .text {
+    width: 60%;
+    display: grid;
+    align-content: center;
+    border: 1px solid blue;
+    background-color: rgba(0,0,128, 0.5);
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 1.5%;
+}
+a {
+    color: white;
+}
+p {
+    
+    border: 4px solid white;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -1%;
+}
