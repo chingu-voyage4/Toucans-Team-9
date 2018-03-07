@@ -211,43 +211,51 @@ body {
 
 /** Contact and Footer section, made by Loubna**/
 /*contact section*/
-.contact_us {
+section .contact_us {
     background-image: url(assets/foto_background.jpeg);
-    position: absolute;
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     text-align: center;
-    position: absolute;
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.25em;
     font-weight: bolder;
     letter-spacing: 0.1em;
     text-transform: uppercase;
- }
-.text {
+
+    }
+section .text {
     width: 60%;
     display: grid;
     align-content: center;
     border: 1px solid blue;
     background-color: rgba(0,0,128, 0.5);
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 20%;
     padding: 1.5%;
 }
-
-.contact_us {    
+.icons {
+    color: white;
+}
+.contact {
+    
     border: 4px solid white;
     padding: 20px;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 30%;
     margin-top: -1%;
 }
-
+footer {
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    margin-bottom: 0;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
 /** Media queries **/
 @media screen and (min-width: 400px;) {
     .label_box {
