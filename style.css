@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 html, 
 body {
     width: 100%;
@@ -28,34 +23,28 @@ body {
   background-color: #333;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+.navbar-collapse > .nav > .nav-item > .nav-link {
+    color: #fff;
 }
-
 /** Main section made by ana veiga **/
 
 .brands_slide {
-    margin: 10px 0 10px 0;
-    padidng: 10px;
+    padding: 10px;
     height: auto;
-    align-center: center;
+    align-items: center;
+    margin-bottom: 10px;
     border-bottom: 1px solid rgba(189, 189, 189, 0.884);
     text-align: center;
-    -webkit-box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
-    -moz-box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
-    box-shadow: 0px 0px 17px 0px rgba(130,130,130,1);
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
-.brands a {
+.brands_link {
     text-decoration: none;
 }
 
-.brands a:hover {
+.brands_link:hover {
     text-decoration: none;
 }
 
@@ -67,7 +56,7 @@ body {
 /* labels section*/
 
 .label_one {
-    height: 600px;
+    height: 500px;
     background-image: url("assets/foto_4.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,6 +64,9 @@ body {
     background-attachment: fixed;
     margin: 0 auto;
     padding:10px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .label_box {
@@ -119,43 +111,45 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 20px 0 20px 0;
-    height: 600px;
+    height: 500px;
+    margin: 10px 0 10px 0;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .device_photo {
     margin: 0;
-    width:308px;
-    height: 510px;
     display: block;
+    text-align: right;
 }
 
 .list {
     vertical-align: middle;
-    display: inline-block;
 }
 
 .list_device {
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
     list-style-type: none;
     padding: 10px;
     color: #fff;
-    text-align: center;
-    margin-top: 10px;
+    text-align: left;
 }
 
 .rounded-circle {
     background-color: #fff;
     color: #000;
     padding: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
     border-radius: 50%;
 }
 /** Sections made by Waleed **/
 /*Section1*/
 .section1 {
     background-image: url("https://i.imgur.com/NUGdWOR.jpg");
-    height: 750px;
+    height: 500px;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -185,68 +179,74 @@ body {
 }
 
 .button:hover {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
 /*Testimonials*/
-.temp1 {
-    background-image: url("https://i.imgur.com/NUGdWOR.jpg");
-    height: 600px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 .testimonial {
-    height: 380px;
+    height: 320px;
+    padding: 10px;
+    background-color: #ddd; 
+    margin-bottom: 10px;
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);  
 }
 
 .description {
-    margin-right: 30%;
     margin-left: 30%;
+    margin-right: 30%;
 }
 
 /** Contact and Footer section, made by Loubna**/
 /*contact section*/
-.contact_us {
-    background-image: url(assets/foto_background.jpeg);
-    position: absolute;
+section .contact_us {
+    background-image: url(assets/cup_of_coffee.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     text-align: center;
-    position: absolute;
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.25em;
     font-weight: bolder;
     letter-spacing: 0.1em;
     text-transform: uppercase;
- }
-.text {
+    padding: 10px;
+}
+
+section .text {
     width: 60%;
     display: grid;
     align-content: center;
     border: 1px solid blue;
     background-color: rgba(0,0,128, 0.5);
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 20%;
     padding: 1.5%;
 }
 
-.contact_us {    
+.icons {
+    color: white;
+}
+
+.contact {
     border: 4px solid white;
     padding: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: -1%;
+    margin: 0 auto;
 }
+
+footer {
+    text-align: center;
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
 
 /** Media queries **/
 @media screen and (min-width: 400px;) {
