@@ -281,7 +281,7 @@ footer {
 @media (min-width: 768px) {
     .offset-md-6 {
         margin-left: 50%;
-        margin-top: 6%;
+        margin-top: 10%;
     }
    
 }
