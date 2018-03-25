@@ -38,13 +38,14 @@ body {
     -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
-
-.brands_link:hover {
-    text-decoration: none;
+.brands_slide {
+    display: none;
+    margin: auto;
 }
 
 .brands_img {
     padding: 10px;
+    vertical-align: middle;
 }
 /* labels section*/
 .label_one {
