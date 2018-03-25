@@ -15,4 +15,22 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
-// 
+// modal box for the contact button
+
+var modal = document.getElementById("modal");//modal
+var btn = document.getElementById("btn_contact"); // button
+var span = document.getElementsByClassName("close")[0]; //close btn
+
+btn.onClick = function () {
+    modal.style.display = "block";
+}
+
+span.onClick = function () {
+    modal.style.display = "none";
+}
+
+window.onClick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
