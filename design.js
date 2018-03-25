@@ -1,7 +1,7 @@
 // brands slideshow 
 
-var slideIndex = 0;
-showSlides();
+var slideIndex = 0; // shows how many slides are going to show
+showSlides(); 
 
 function showSlides() {
     var i;
@@ -14,3 +14,5 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block"; 
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
+
+// 
