@@ -38,13 +38,14 @@ body {
     -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
-
-.brands_link:hover {
-    text-decoration: none;
+.brands_slide {
+    display: none;
+    margin: auto;
 }
 
 .brands_img {
     padding: 10px;
+    vertical-align: middle;
 }
 /* labels section*/
 .label_one {
@@ -256,7 +257,8 @@ section .text {
 .contact {
     border: 4px solid white;
     padding: 20px;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    cursor: pointer;
 }
 
 footer {
@@ -270,6 +272,38 @@ footer {
     letter-spacing: 0.2em;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ddd;
+}
+
+.content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #333;
+    width: 80%;
+}
+
+.close {
+    color: #0cc;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 /** Media queries **/
 @media screen and (min-width: 400px) {
     .label_box {

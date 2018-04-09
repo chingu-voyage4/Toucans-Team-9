@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    
 </head>
 <body>
     <header><!--header section, by Loubna-->
@@ -45,11 +44,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 brands align-items-center"> <!-- TODO create an effects -->
-                    <a href="#" class="brands_link"> 
-                        <img src="assets\bears_logo.png" class="brands_img">
-                        <img src="assets\geckos_logo.png" class="brands_img">
-                        <img src="assets\toucans_logo.png" class="brands_img">
-                    </a>
+                    <div id="slideshow">
+                        <div>
+                            <img src="assets\bears_logo.png" class="brands_img brands_slide"> 
+                        </div>
+                        <div>
+                            <img src="assets\geckos_logo.png" class="brands_img brands_slide"> 
+                        </div>
+                        <div>
+                            <img src="assets\toucans_logo.png" class="brands_img brands_slide"> 
+                        </div>
+                    </div>                   
                 </div>
             </div>  
 
@@ -110,15 +115,48 @@
             </div>
         </div>
     </section> 
-
+    
     <section> <!-- TESTIMONIAL -->
         <div id="showContainer" class="container-fluid testimonial">
             <div class="row text-center">
                 <div class="col-md-6 offset-md-3">
                     <div class="pic">
-                        <img src="https://i.imgur.com/ZU8FgEc.png" alt="pic">
+                        <img src="assets/user_img.png" alt="pic">
                         <h3 class="testimonial-title">Lorem Ipsum<small>, Web Developer</small></h3>
-                        <p class="description" style="word-wrap; break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+        <div class="container-fluid testimonial">
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
+                    <div class="pic">
+                        <img src="assets/user_img.png" alt="pic">
+                        <h3 class="testimonial-title">Lorem Ipsum<small>, Web Designer</small></h3>
+                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+        <div class="container-fluid testimonial">
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
+                    <div class="pic">
+                        <img src="assets/user_img.png" alt="pic">
+                        <h3 class="testimonial-title">Lorem Ipsum<small>, Webmarketer</small></h3>
+                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+        <div class="container-fluid testimonial">
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
+                    <div class="pic">
+                        <img src="assets/user_img.png" alt="pic">
+                        <h3 class="testimonial-title">Lorem Ipsum<small>, Content Manager</small></h3>
+                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
                     </div>  
                 </div>  
             </div>
@@ -162,6 +200,10 @@
         <p class="copyright">&copy; 2018 Toucanory &reg; Made with coffee &hearts;</p>
     </footer>
 
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="design.js"></script>
 </body>
 </html>
