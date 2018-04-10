@@ -1,5 +1,5 @@
 // brands slideshow 
-
+// tuorial for slideshow from W3schools
 var slideIndex = 0; // shows how many slides are going to show
 showSlides(); 
 
@@ -15,22 +15,16 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 
-// modal box for the contact button
+// testimonials slideshow
+$(".carousel").carousel({
+    interval: 5000,
+    keyboard: true,
+    pause: "hover",
+    ride: false,
+});
 
-var modal = document.getElementById("modal");//modal
-var btn = document.getElementById("btn_contact"); // button
-var span = document.getElementsByClassName("close")[0]; //close btn
+// modalbox decaring functions
 
-btn.onClick = function () {
-    modal.style.display = "block";
-}
-
-span.onClick = function () {
-    modal.style.display = "none";
-}
-
-window.onClick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+$("#ourModal").modal({
+    keyboard: true,
+});

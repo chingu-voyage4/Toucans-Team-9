@@ -28,11 +28,11 @@
                 </button>
                 <div id="navcol-1" class="collapse navbar-collapse"><!-- Links section-->
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#" class="nav-link">AGENCE</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">METHODO</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">WORKS</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">UN CAFE?</a></li>
+                        <li class="nav-item"><a href="#brands" class="nav-link">AGENCE</a></li>
+                        <li class="nav-item"><a href="#method" class="nav-link">METHOD</a></li>
+                        <li class="nav-item"><a href="#works" class="nav-link">WORKS</a></li>
+                        <li class="nav-item"><a href="#blog" class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">UN CAFE?</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +43,7 @@
     <main><!-- main section, by ana veiga and Waleed -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 brands align-items-center"> <!-- TODO create an effects -->
+                <div class="col-12 brands align-items-center" id="brands"> <!-- TODO create an effects -->
                     <div id="slideshow">
                         <div>
                             <img src="assets\bears_logo.png" class="brands_img brands_slide"> 
@@ -67,7 +67,7 @@
                 </div>
             </div>
         
-            <div class="row label_two vertical-align"><!-- label_two-->
+            <div class="row label_two vertical-align" id="method"><!-- label_two-->
                 <div class="col-6 label_device">
                     <img src="assets\device_photo.png" class="device_photo img-fluid">
                 </div>
@@ -83,29 +83,30 @@
             </div>
         
         <div class="row section1"><!-- Sections , made by Waleed; SECTION1 FIXED IMAGE-->
-            <div class="col-md-12">
-                <button class="button button1" style="margin-top:20%; font-weight:700;">BUTTON</button>
+            <div class="col-md-12" id="works">
+                <button class="button section_btn">FIND MORE</button>
             </div>  
         </div><!-- SECTION1 END -->
-        <div class="row section2 vertical-align"> <!-- SECTION2, START -->
-            <div class="col-md-6">
+
+        <div class="row section2"> <!-- SECTION2, START -->
+            <div class="col-md-6 align-self-center">
                 <img src="https://i.imgur.com/NUGdWOR.jpg" class="small-image"> 
             </div>
-            <div class="col-md-6" style="word-wrap: break-word;">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit !</h2>        
+            <div class="col-md-6 align-self-center" id="blog">
+                <h2>Blog title</h2>        
                 <p class="section_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, rerum quia ea modi et, nemo, voluptas iusto delectus 
                 debitis quos aperiam eos dolorem tenetur illo laudantium perferendis 
-                similique tempora unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dicta voluptate suscipit ratione...</p>
-                <button class="button button1">Button</button>
+                similique tempora unde!</p>
+                <button class="button button1">READ MORE+</button>
             </div>
         </div><!--SECTION 2 END -->
     </main><!-- main section ends -->
 
     <section> <!-- Contact Section, made by Loubna-->
-        <div class="contact_us">
+        <div class="contact_us" id="contact">
             <div class="text">
                 <h1>Envie de passer prendre un café ?</h1>
-                <p class="contact">CONTACTEZ-NOUS <i class="fas fa-envelope"></i></p>
+                <a href="#" class="contact" data-toggle="modal" data-target="#ourModal">CONTACTEZ-NOUS <i class="fas fa-envelope"></i></a>
                 <div class="icons">
                     <a href='#' style="padding-left:25px; color:white;"><i class="fab fa-facebook-f"></i></a>
                     <a href='#' style="padding-left:25px; color:white;"><i class="fab fa-instagram"></i></a>
@@ -114,51 +115,67 @@
                 </div>
             </div>
         </div>
+        <!-- Modal box -->
+        <div class="modal fade" id="ourModal" tabindex="-1" role="dialog" aria-labelledby="ourModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ourModalLabel">Thanks for watching our work!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This website, was made by <a href="https://github.com/Luubna">Loubna</a> and by <a href="https://github.com/cveiga819">Catarina</a>, we tried to make an impressive website, and for sure we have learned a lot 
+                           with this experience. So, if you would like to help us, or give us your feedback, please send us a DM for Slack, or follow us on Github ;) 
+                        The link for the repo is this:<a href="https://github.com/chingu-voyage4/Toucans-Team-9">Toucans-Team-9</a> </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section> 
-    
     <section> <!-- TESTIMONIAL -->
-        <div id="showContainer" class="container-fluid testimonial">
-            <div class="row text-center">
-                <div class="col-md-6 offset-md-3">
-                    <div class="pic">
-                        <img src="assets/user_img.png" alt="pic">
-                        <h3 class="testimonial-title">Lorem Ipsum<small>, Web Developer</small></h3>
-                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
-                    </div>  
-                </div>  
-            </div>
-        </div>
         <div class="container-fluid testimonial">
-            <div class="row text-center">
-                <div class="col-md-6 offset-md-3">
-                    <div class="pic">
-                        <img src="assets/user_img.png" alt="pic">
-                        <h3 class="testimonial-title">Lorem Ipsum<small>, Web Designer</small></h3>
-                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
-                    </div>  
-                </div>  
-            </div>
-        </div>
-        <div class="container-fluid testimonial">
-            <div class="row text-center">
-                <div class="col-md-6 offset-md-3">
-                    <div class="pic">
-                        <img src="assets/user_img.png" alt="pic">
-                        <h3 class="testimonial-title">Lorem Ipsum<small>, Webmarketer</small></h3>
-                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
-                    </div>  
-                </div>  
-            </div>
-        </div>
-        <div class="container-fluid testimonial">
-            <div class="row text-center">
-                <div class="col-md-6 offset-md-3">
-                    <div class="pic">
-                        <img src="assets/user_img.png" alt="pic">
-                        <h3 class="testimonial-title">Lorem Ipsum<small>, Content Manager</small></h3>
-                        <p class="description" style="word-wrap: break-word;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
-                    </div>  
-                </div>  
+            <div class="carousel slide" id="demo" data-ride="carousel" >
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>    
+                </ul>
+                <!-- carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/user_img.png" alt="user_img" class="user_img">
+                        <h3 class="testimonial-title">Richard Doe<small>, Web Developer</small></h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/user_img.png" alt="user_img" class="user_img">
+                        <h3 class="testimonial-title">Jane Doe<small>, Web Designer</small></h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/user_img.png" alt="user_img" class="user_img">
+                        <h3 class="testimonial-title">April Doe<small>, Webmarketer</small></h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/user_img.png" alt="user_img" class="user_img">
+                        <h3 class="testimonial-title">Alex Doe<small>, Content Manager</small></h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus mollitia quos maiores autem sint ratione! Ipsum iusto, mollitia necessitatibus voluptates consequatur est quod. Adipisci perferendis harum optio blanditiis! Optio, sequi.</p>      
+                    </div>    
+                </div> 
+                <!-- controls for carousel -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
         <div class="container-fluid testimonial">
