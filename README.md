@@ -2,8 +2,8 @@
 # Toucans-Team-9
 
 Voyage-4
-
-live-previeW: https://htmlpreview.github.io/?https://github.com/chingu-voyage4/Toucans-Team-9/blob/cveiga819-patch-2/index.html
+# Toucanory Landing Page
+Our website: https://chingu-voyage4.github.io/Toucans-Team-9/
 
 Here you are! himself alive!!! ;) tell me your thoughts to change any thing you like! 
 
@@ -35,8 +35,6 @@ The team has been formed to work on a project as a part of Chingu Voyage-4. Our 
 
 @Loubna:  Team Member
 
-@Jinxlaw:  Team Member
-
 **Desired end results:**
 
 The team will clone www.packtory.ma/ landing page,in the next two months we will be working with Html5, CSS3, and Javascript basics, in addition to some css frameworks (Materialize and Bootstrap)
@@ -53,4 +51,4 @@ General courtesy and respect.
 
 **Team Communication:**
 
-We will communicate with each other using various means: Slack, Discord, emails.
+We will communicate with each other using various means: Slack, Discord, Whatsapp, emails.
