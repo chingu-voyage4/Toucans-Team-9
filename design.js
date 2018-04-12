@@ -26,5 +26,5 @@ $(".carousel").carousel({
 // modalbox decaring functions
 
 $("#ourModal").modal({
-    keyboard: true,
+    keyboard: false,
 });
