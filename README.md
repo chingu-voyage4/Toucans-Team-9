@@ -32,10 +32,6 @@ While working on the website, our main goal was to work in a team and learn fund
 ![want51180-1hm7ku1495216352](https://user-images.githubusercontent.com/25456073/38740081-8f52df1e-3f2e-11e8-810a-9a1793a6c8b5.png)
 
 
-**Purpose Statement and Team Objectives:**
-
-The team has been formed to work on a project as a part of Chingu Voyage-4. Our overall objectives is to work in a team and learn fundamental skills, we are also committed to working effectively as a team, by monitoring our process effectiveness, following through on commitments and helping one another to learn.
-
 # Members:
 
 @Ana Veiga: Project Manager
