@@ -6,7 +6,6 @@ body {
     background-color: #fff;
     font-size: 16px;
 }
-
 /** Header Section, made by Loubna **/
 /*video section*/
 
@@ -16,7 +15,6 @@ body {
     width: 100%; 
     min-height: 100%;
 }
-
 /*navbar section*/
 
 .navbar {
@@ -29,6 +27,7 @@ body {
 }
 /** Main section made by ana veiga **/
 /*brand section*/
+
 .brands {
     padding: 10px;
     height: auto;
@@ -38,6 +37,7 @@ body {
     -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
+
 .brands_slide {
     display: none;
     margin: auto;
@@ -48,6 +48,7 @@ body {
     vertical-align: middle;
 }
 /* labels section*/
+
 .label_one {
     height: 550px;
     background-image: url("assets/wallet.jpg");
@@ -58,8 +59,7 @@ body {
     padding: 10px;
     -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
-    
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);    
 }
 
 .label_box {
@@ -96,8 +96,8 @@ body {
     color: #fff;
     background-color: #000;
 }
-
 /*label two*/
+
 .label_two {
     background-image: url("assets/tunnel-greyscale.jpg");
     background-position: center;
@@ -139,8 +139,8 @@ body {
     padding: 10px;
 }
 
-/** Sections made by Waleed **/
 /*Section1*/
+
 .section1 {
     background-image: url("assets/foto_background.jpeg");
     height: 550px;
@@ -164,6 +164,7 @@ body {
 
 }
 /*Section2*/
+
 .section2 {
     background-color: #fff;
     height: 550px;
@@ -202,8 +203,8 @@ body {
     background-color: #000;
     color: #fff;
 }
-
 /*Testimonials*/
+
 .testimonial {
     height: 400px;
     width: 100%;
@@ -240,12 +241,11 @@ body {
     width: 80%;
     margin: 0 auto;
     align-self: center;
-    align-items:center;
-    
+    align-items: center;    
 } 
-
 /** Contact and Footer section, made by Loubna**/
 /*contact section*/
+
 section .contact_us {
     background-image: url(assets/cup_of_coffee.jpg);
     height: 500px;
@@ -303,6 +303,7 @@ footer {
    background-color: #ddd;
    height: 50px;
 }
+
 .copyright {
     text-align: center;
     color: #000;
@@ -343,6 +344,7 @@ footer {
     cursor: pointer;
 }
 /** Media queries **/
+
 @media screen and (min-width: 400px) {
     .label_box {
         font-size: 14px;
